@@ -1,4 +1,4 @@
-<img width="1526" height="855" alt="Executive" src="https://github.com/user-attachments/assets/07185d19-3888-4617-aefa-c4a4828f7926" /># Healthcare Claims Denial & Leakage Analyzer
+# Healthcare Claims Denial & Leakage Analyzer
 
 An end-to-end healthcare claims analytics project built using **Python, Pandas, SQL, and Power BI**. This project uses synthetic healthcare claims data to analyze denial patterns, identify revenue leakage risks, and track appeal recovery.
 
@@ -181,7 +181,7 @@ Suggested focus areas include high denied exposure, frequent denial reasons, unr
 Clone the repository:
 
 ```bash
-git clone https://github.com/Aparna267103/Healthcare-Claims-Denial-Analyzer.git
+git clone https://github.com/YOUR-USERNAME/Healthcare-Claims-Denial-Analyzer.git
 cd Healthcare-Claims-Denial-Analyzer
 ```
 
@@ -256,7 +256,7 @@ This portfolio project uses synthetic data. Real healthcare data requires approp
 
 **Your Name**
 
-- GitHub: https://github.com/Aparna267103
+- GitHub: https://github.com/YOUR-USERNAME
 
 ## Project Summary
 
