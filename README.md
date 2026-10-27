@@ -91,17 +91,7 @@ The dashboard is organized into four pages to provide executive insights, denial
 
 ## Power BI Dashboard Screenshots
 
-### Executive Overview
-![Executive](screenshots/Executive.png)
-
-### Denial Root Cause
-![Root Cause](screenshots/Root_Cause.png)
-
-### Appeals & Recovery
-![Recovery](screenshots/Recovery.png)
-
-### Action Center
-![Action Center](screenshots/Action_Center.png)
+The dashboard is organized into four pages to provide executive insights, denial root-cause analysis, appeal recovery monitoring, and operational prioritization.
 
 ### 1. Executive Overview
 
@@ -157,6 +147,20 @@ Supports prioritization of claims requiring operational review.
 
 Suggested focus areas include high denied exposure, frequent denial reasons, unresolved appeals, and payer or specialty patterns that warrant investigation.
 
+![Action Center](screenshots/Action_Center.png)
+
+## Power BI Dashboard Screenshots
+
+### Executive Overview
+![Executive](screenshots/Executive.png)
+
+### Denial Root Cause
+![Root Cause](screenshots/Root_Cause.png)
+
+### Appeals & Recovery
+![Recovery](screenshots/Recovery.png)
+
+### Action Center
 ![Action Center](screenshots/Action_Center.png)
 
 ## Metric Definitions
