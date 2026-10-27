@@ -89,6 +89,20 @@ healthcare_claims_denial_analyzer/
 
 The dashboard is organized into four pages to provide executive insights, denial root-cause analysis, appeal recovery monitoring, and operational prioritization.
 
+## Power BI Dashboard Screenshots
+
+### Executive Overview
+![Executive](screenshots/Executive.png)
+
+### Denial Root Cause
+![Root Cause](screenshots/Root_Cause.png)
+
+### Appeals & Recovery
+![Recovery](screenshots/Recovery.png)
+
+### Action Center
+![Action Center](screenshots/Action_Center.png)
+
 ### 1. Executive Overview
 
 Provides a high-level summary of claims performance and financial exposure.
