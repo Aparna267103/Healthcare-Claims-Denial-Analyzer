@@ -110,7 +110,7 @@ Provides a high-level summary of claims performance and financial exposure.
 - Monthly Denial Rate Trend
 - Denied Exposure and Appeal Recovery by Payer, where supported by the data model
 
-![Executive Overview](screenshots/Executive.png)
+![Executive Overview](Executive.png)
 
 ### 2. Denial Root Cause
 
@@ -122,7 +122,7 @@ Explores denial patterns across payer, provider specialty, procedure, and denial
 - Claim-level details by payer, plan, CPT, and CARC
 - Drill-through to claim details, if configured
 
-![Denial Root Cause](screenshots/Root_Cause.png)
+![Denial Root Cause](Root_Cause.png)
 
 ### 3. Appeals & Recovery
 
@@ -139,7 +139,7 @@ Tracks appeal outcomes and the recovery of denied amounts.
 - Denial Volume vs. Exposure by Denial Reason
 - Appeal status and recovered amount by Claim ID
 
-![Appeals and Recovery](screenshots/Recovery.png)
+![Appeals and Recovery](Recovery.png)
 
 ### 4. Action Center
 
@@ -147,7 +147,7 @@ Supports prioritization of claims requiring operational review.
 
 Suggested focus areas include high denied exposure, frequent denial reasons, unresolved appeals, and payer or specialty patterns that warrant investigation.
 
-![Action Center](screenshots/Action_Center.png)
+![Action Center](Action_Center.png)
 
 ## Metric Definitions
 
