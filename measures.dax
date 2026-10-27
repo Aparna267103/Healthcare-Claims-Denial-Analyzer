@@ -1,0 +1,50 @@
+-- Assumes table name is 'claims'. Format money measures as currency in Power BI.
+Total Claims =
+COUNTROWS(claims)
+
+Denied Claims =
+CALCULATE([Total Claims], claims[denied_flag] = TRUE())
+
+Denial Rate % =
+DIVIDE([Denied Claims], [Total Claims], 0)
+
+Total Billed =
+SUM(claims[billed_amount])
+
+Total Paid =
+SUM(claims[paid_amount])
+
+Denied Exposure =
+SUM(claims[denied_amount])
+
+Appeal Recovered =
+SUM(claims[appeal_recovered_amount])
+
+Net Unrecovered =
+SUM(claims[net_unrecovered_amount])
+
+Appeals Submitted =
+CALCULATE([Total Claims], claims[appeal_submitted] = TRUE())
+
+Appeals Won =
+CALCULATE([Total Claims], claims[appeal_won] = TRUE())
+
+Appeal Success Rate % =
+DIVIDE([Appeals Won], [Appeals Submitted], 0)
+
+Appeal Submission Rate % =
+DIVIDE(
+    CALCULATE([Total Claims], claims[appeal_submitted] = TRUE()),
+    [Denied Claims],
+    0
+)
+
+Average Denied Amount =
+DIVIDE([Denied Exposure], [Denied Claims], 0)
+
+Recovery Rate % =
+DIVIDE([Appeal Recovered], [Denied Exposure], 0)
+
+-- Optional weighted rate: useful when comparing groups with different claim volumes.
+Denied Claim Count Label =
+FORMAT([Denied Claims], "#,##0")
