@@ -149,20 +149,6 @@ Suggested focus areas include high denied exposure, frequent denial reasons, unr
 
 ![Action Center](screenshots/Action_Center.png)
 
-## Power BI Dashboard Screenshots
-
-### Executive Overview
-![Executive](screenshots/Executive.png)
-
-### Denial Root Cause
-![Root Cause](screenshots/Root_Cause.png)
-
-### Appeals & Recovery
-![Recovery](screenshots/Recovery.png)
-
-### Action Center
-![Action Center](screenshots/Action_Center.png)
-
 ## Metric Definitions
 
 | Metric | Definition |
