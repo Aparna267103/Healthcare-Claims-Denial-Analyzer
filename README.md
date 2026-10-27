@@ -181,7 +181,7 @@ Suggested focus areas include high denied exposure, frequent denial reasons, unr
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Healthcare-Claims-Denial-Analyzer.git
+git clone https://github.com/Aparna267103/Healthcare-Claims-Denial-Analyzer.git
 cd Healthcare-Claims-Denial-Analyzer
 ```
 
@@ -254,9 +254,9 @@ This portfolio project uses synthetic data. Real healthcare data requires approp
 
 ## Author
 
-**Your Name**
+**Aparna V**
 
-- GitHub: https://github.com/YOUR-USERNAME
+- GitHub: https://github.com/Aparna267103
 
 ## Project Summary
 
